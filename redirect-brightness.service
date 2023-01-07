@@ -1,0 +1,8 @@
+[Unit]
+Description=Redirect Backlight Brightness from one driver to another
+
+[Service]
+ExecStart=/usr/local/bin/redirect-brightness
+
+[Install]
+WantedBy=basic.target
